@@ -1,0 +1,1 @@
+jQuery(document).ready(function(c){var e=768,n=1024,t=c(".cd-faq-group"),a=c(".cd-faq-trigger"),i=c(".cd-faq-items"),d,o=c(".cd-faq-categories").find("a"),l=c(".cd-close-panel");a.on("click",function(e){c(this).parent("li").toggleClass("content-visible").next(".cd-faq-content").slideToggle(400).end()})});
