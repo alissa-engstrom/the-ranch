@@ -21,7 +21,7 @@ function ranch_load_scripts(){
     }
     wp_enqueue_script( 'slick', get_template_directory_uri() . '/js/slick.min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'sticky-kit', get_template_directory_uri() . '/js/jquery.sticky-kit-min.js', array(), '1.0.0', true );
-    wp_enqueue_script( 'map-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAqZX4p0PHjdiYd9PuuASzg_Xrd3daNDpY', array(), '', true);
+    wp_enqueue_script( 'map-api', 'https://maps.googleapis.com/maps/api/js?key=', array(), '', true);
     wp_enqueue_script( 'maps', get_template_directory_uri() . '/js/maps-min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'load', get_template_directory_uri() . '/js/load-min.js', array(), '1.0.0', true );
     
